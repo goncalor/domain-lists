@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DEFAULT=(com pt)
+DEFAULT=(com org pt)
 TLDS=(${@:-${DEFAULT[@]}})  # use arguments or default
 OUTFILE='alexa.txt'
 
