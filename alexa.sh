@@ -10,6 +10,6 @@ fi
 
 for tld in "${TLDS[@]}";
 do
-    echo .$tld
+    echo -ne ".$tld\t"
     grep "\\.$tld$" "$OUTFILE" | tee "alexa-$tld.txt" | wc -l
 done

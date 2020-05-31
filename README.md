@@ -3,7 +3,7 @@ domain-lists
 
 A set of scripts to obtain a list of domains from multiple sources.
 
-For your convenience, you can download the output of some runs of the scripts in [Releases][releases].
+For your convenience, you can download the output of some runs of the scripts from [Releases][releases].
 
 Scripts
 -------
