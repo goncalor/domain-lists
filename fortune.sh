@@ -18,4 +18,4 @@ done < $PERMALINKS \
     | tee /dev/tty | uniq | cut -d: -f2- | tr -d '"\\' \
     > $WEBSITES
 
-cat $WEBSITES | sed -e 's/.*:\/\///g' | tee $OUTFILE
+cat $WEBSITES | sed -e 's/.*:\/\///g' | tr -d '/' | tee $OUTFILE
