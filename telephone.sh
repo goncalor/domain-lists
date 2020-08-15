@@ -20,3 +20,6 @@ do
         | sed 's/.*href="\([^"]\+\)".*/\1/' \
         | sed 's/.*:\/\/\([^\/]\+\).*/\1/'
 done | tee "$OUTFILE"
+
+temp=$(mktemp)
+sort -u "$OUTFILE" > "$temp" && mv "$temp" "$OUTFILE"
