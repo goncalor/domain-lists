@@ -11,6 +11,7 @@ Scripts
 - `alexa.sh [tld]...` downloads Alexa Top 1M list. Creates files with domains ending with specified TLDs
 - `fortune.sh` downloads a list of domains for the Fortune 1000 company list
 - `moz.sh` downloads Moz's top 500 domains
+- `telephone.sh` downloads a list of domains for telephone companies
 - `w3stats.sh [tdl]...` downloads top sites from W3Stats for the specified TLDs
 - `compile.sh` compiles a selection of the outputs from other scripts, which must be run first
 
